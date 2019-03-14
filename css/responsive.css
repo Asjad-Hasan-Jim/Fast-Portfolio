@@ -1,0 +1,1242 @@
+/*media qu start*/
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media(min-width: 320px) and (max-width: 575px) {
+
+	/*header top part start*/
+	#head-t .head-t-part .logo a h2 {
+		font-size: 14px;
+		padding-left: 10px;
+	}
+
+	#head-t .head-t-part .social-icon ul li {
+		display: inline-block;
+		margin: 0px 10px 0px 10px;
+	}
+
+	#head-t .head-t-part .social-icon ul li a {
+		font-size: 12px;
+	}
+
+	#head-t .head-t-part .social-icon ul li a i {
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+	}
+
+	/*header top part end*/
+	/*banner part start*/
+	#banner .banner-part .banner-slider .banner-slider-1 {
+		background: url(../images/banner-img-1.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay {
+		height: 100%;
+		;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 {
+		background: url(../images/banner-img-2.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay {
+		height: 100%;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 {
+		background: url(../images/banner-img-3.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay {
+		height: 100%;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h2 {
+		font-size: 14px;
+		padding: 80px 0px 10px 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h3 {
+		font-size: 16px;
+		font-weight: 700;
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h5 {
+		font-size: 17px;
+		font-weight: 600;
+		background: none;
+		padding: 0px 0px 10px 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text a {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		font-size: 12px;
+		height: 20px;
+		width: 80px;
+		line-height: 20px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h2 {
+		font-size: 14px;
+		padding: 80px 0px 10px 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h3 {
+		font-size: 16px;
+		font-weight: 700;
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h5 {
+		font-size: 17px;
+		font-weight: 600;
+		background: none;
+		padding: 0px 0px 10px 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text a {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		font-size: 12px;
+		height: 20px;
+		width: 80px;
+		line-height: 20px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h2 {
+		font-size: 14px;
+		padding: 80px 0px 10px 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h3 {
+		font-size: 16px;
+		font-weight: 700;
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h5 {
+		font-size: 17px;
+		font-weight: 600;
+		background: none;
+		padding: 0px 0px 10px 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text a {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		font-size: 12px;
+		height: 20px;
+		width: 80px;
+		line-height: 20px;
+	}
+
+	/*banner part end*/
+
+	/*fixed navigation start*/
+	#navigation.fixed {
+		position: none;
+		top: 0;
+		left: 0;
+		background: #2C2D32;
+		width: 100%;
+		z-index: 99999;
+	}
+
+	/*fixed navigation end*/
+
+	/*navigation part start*/
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item .nav-link {
+		padding-top: 0px;
+		padding-left: 50%;
+	}
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item .nav-link i {
+		font-size: 10px;
+		color: rgba(255, 255, 255, 0.5);
+		text-align: center;
+		line-height: 20px;
+		width: 20px;
+		height: 20px;
+	}
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item h4 {
+		font-size: 10px;
+		font-weight: 400;
+		padding-bottom: 0px;
+		padding-left: 50%;
+	}
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item:hover h4 {
+		padding-bottom: 5px;
+	}
+
+	/*navigation part end*/
+	/*about part start*/
+	#about .about-part {
+		padding: 50px 0px 50px 0px;
+	}
+
+	#about .about-part .heading h2 {
+		font-size: 14px;
+	}
+
+	#about .about-part .heading img {
+		padding-left: 39%;
+	}
+
+	#about .about-part .heading p span {
+		font-size: 12px;
+		padding: 5px 0;
+	}
+
+	#about .about-part .heading p {
+		font-size: 12px;
+		padding-bottom: 30px;
+	}
+
+	#about .about-part .barfiller-part {
+		padding-top: 25px;
+	}
+
+	#about .about-part .barfiller-part h2 {
+		font-size: 12px;
+		padding-bottom: 3px;
+	}
+
+	#about .about-part .text p {
+		font-size: 13px;
+		padding-top: 7.5px;
+	}
+
+	/*about part end*/
+	/*services part start*/
+
+	#services .services-part {
+		padding: 50px 0px;
+	}
+
+	#services .services-part .heading h2 {
+		font-size: 14px;
+
+	}
+
+	#services .services-part .heading img {
+		padding-left: 39%;
+	}
+
+	#services .services-part .heading p span {
+		font-size: 12px;
+		padding: 5px 0;
+	}
+
+	#services .services-part .heading p {
+		font-size: 12px;
+		padding: 5px 0 35px 0;
+	}
+
+	#services .services-part .content {
+		margin-bottom: 15px;
+		margin-right: 0px;
+	}
+
+	#services .services-part .content i {
+		font-size: 16px;
+		padding: 20px 0px 20px 20px;
+	}
+
+	#services .services-part .content h2 {
+		font-size: 14px;
+		padding: 0px 0px 20px 20px;
+	}
+
+	#services .services-part .content p {
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+	/*services part end*/
+	/*counter part start*/
+
+	#counter-part .counter-strat {
+		background: rgba(0, 0, 0, 0.9);
+		padding: 50px 0px;
+	}
+
+	#counter-part .counter-strat .text i {
+		font-size: 14px;
+	}
+
+	#counter-part .counter-strat .text h4 {
+		font-size: 14px;
+	}
+
+	#counter-part .counter-strat .text h5 {
+		font-size: 12.5px;
+	}
+
+	/*counter part end*/
+
+	/*portfolio part start*/
+
+	#porfolio .portfolio-part {
+		padding: 50px 0px 50px 0px;
+	}
+
+	#porfolio .portfolio-part .heading h2 {
+		font-size: 14px;
+	}
+
+	#porfolio .portfolio-part .heading img {
+		padding-left: 39%;
+	}
+
+	#porfolio .portfolio-part .heading p span {
+		font-size: 14px;
+	}
+
+	#porfolio .portfolio-part .heading p {
+		font-size: 12.5px;
+		padding-bottom: 30px;
+	}
+
+	#porfolio .portfolio-part .filter-btn {
+		background: none;
+		box-shadow: none;
+		display: flex;
+		width: 0px;
+		height: 0px;
+		line-height: 0px;
+		border-radius: 0px;
+	}
+
+	#porfolio .portfolio-part .filter-btn button {
+		text-transform: uppercase;
+		background: none;
+		margin-right: 0px;
+		border-radius: 0px;
+		font-size: 12px;
+		border-style: none;
+		padding-bottom: 25px;
+	}
+
+	#porfolio .portfolio-part .filter-btn .mixitup-control-active {
+		background: #747774;
+		color: #f3f3f3;
+	}
+
+	#porfolio .portfolio-part .filter-img {
+		margin: 0 auto;
+	}
+
+	#porfolio .portfolio-part .portfolio-item {
+		margin: 0px 0px 15px 0px;
+	}
+
+	#porfolio .portfolio-part .img-overlay {
+		height: 50%;
+		opacity: 1;
+	}
+
+	#porfolio .portfolio-part .portfolio-item:hover .img-overlay {
+		opacity: 1;
+		height: 50%;
+	}
+
+	#porfolio .portfolio-part .img-overlay h3 {
+		font-size: 14px;
+	}
+
+	#porfolio .portfolio-part .img-overlay h4 {
+		font-size: 12.5px;
+	}
+
+	/*portfolio part end*/
+	/*testimonials part start*/
+	#testimonials {
+		background: url(../images/testi-background.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+	#testimonials .testimonials-part {
+		padding: 50px 0px;
+	}
+
+	#testimonials .testimonials-part .heading h2 {
+		font-size: 14px;
+	}
+
+	#testimonials .testimonials-part .heading img {
+		padding-left: 39%;
+	}
+
+	#testimonials .testimonials-part .heading p {
+		font-size: 12.5px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide img {
+		padding: 15px 0px 12.5px 0px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide p {
+		font-size: 12.5px;
+		letter-spacing: 0.2px;
+		padding: 0px 10px 12.5px 10px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide h2 {
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide h3 {
+		font-size: 14px;
+	}
+
+	/*testimonials part end*/
+	/*contact part start*/
+	#contact .contact-part {
+		padding: 50px 0px 50px 0px;
+	}
+
+	#contact .contact-part .heading h2 {
+		font-size: 14px;
+	}
+
+	#contact .contact-part .heading img {
+		padding-left: 39%;
+	}
+
+	#contact .contact-part .heading p {
+		font-size: 12.5px;
+		padding-bottom: 20px;
+	}
+
+	#contact .contact-part .contant-part h2 {
+		font-size: 14px;
+		padding-bottom: 25px;
+		padding-left: 20px;
+		display: none;
+	}
+
+	#contact .contact-part .contant-part h2 span {
+		font-size: 12.5px;
+		padding-bottom: 0px;
+		display: inline-block;
+		padding-top: 0px;
+	}
+
+	#contact .contact-part .contant-part .form input {
+		width: 245px;
+	}
+
+	#contact .contact-part .contant-part .form textarea {
+		width: 245px;
+	}
+
+	#contact .contact-part .contant-part .form button {
+		margin: 15px 0px 0px 0px;
+		width: 100px;
+		font-size: 14px;
+		height: 30px;
+	}
+
+	/*contact part end*/
+	/*fotter part start*/
+	#fotter .fotter-part h2 {
+		padding: 15px;
+		font-size: 10px;
+	}
+
+	/*fotter part end*/
+
+	/*Scroll arrow up-down start*/
+	.top_to i {
+		width: 20px;
+		height: 20px;
+		font-size: 14px;
+		line-height: 20px;
+		right: 12px;
+	}
+
+	/*Scroll arrow up-down start*/
+
+	/*preloader part start*/
+	#preloader {
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 999;
+		width: 100%;
+		height: 100%;
+		overflow: visible;
+		background: url(../images/rotate-pulsating-loading-animation.gif) no-repeat center center;
+		background-size: cover;
+	}
+
+	/*preloader part end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+	/*header top part start*/
+
+	#head-t .head-t-part .logo a h2 {
+		font-size: 14px;
+	}
+
+	#head-t .head-t-part .social-icon ul li {
+		margin-left: 12.5px;
+	}
+
+	#head-t .head-t-part .social-icon ul li a {
+		font-size: 14px;
+	}
+
+	#head-t .head-t-part .social-icon ul li a i {
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+	}
+
+	/*header top part end*/
+	/*banner part start*/
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay {
+		height: 100%;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay {
+		height: 100%;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay {
+		height: 100%;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h2 {
+		font-size: 15px;
+		padding: 80px 0px 10px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h3 {
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h5 {
+		font-size: 14px;
+		background: none;
+		padding: 0px 0px 0px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text a {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h2 {
+		font-size: 15px;
+		padding: 80px 0px 10px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h3 {
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h5 {
+		font-size: 14px;
+		background: none;
+		padding: 0px 0px 0px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text a {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h2 {
+		font-size: 15px;
+		padding: 80px 0px 10px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h3 {
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h5 {
+		font-size: 14px;
+		background: none;
+		padding: 0px 0px 0px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text a {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	/*banner part end*/
+
+	/*navigation part start*/
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item .nav-link {
+		margin-right: 50px;
+		padding-top: 20px;
+	}
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item .nav-link i {
+		font-size: 12px;
+		line-height: 20px;
+		width: 20px;
+		height: 20px;
+	}
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item h4 {
+		font-size: 10px;
+	}
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item:hover h4 {
+		padding-bottom: 20px;
+	}
+
+	/*navigation part end*/
+	/*about part start*/
+	#about .about-part {
+		padding: 50px 0px 50px 0px;
+	}
+
+	#about .about-part .heading h2 {
+		font-size: 16px;
+	}
+
+	#about .about-part .heading img {
+		padding-left: 44%;
+	}
+
+	#about .about-part .heading p span {
+		font-size: 12.5px;
+	}
+
+	#about .about-part .heading p {
+		font-size: 13px;
+	}
+
+	#about .about-part .img {
+		text-align: center;
+	}
+
+	#about .about-part .barfiller-part {
+		padding-top: 25px;
+	}
+
+	#about .about-part .barfiller-part h2 {
+		font-size: 14px;
+		padding-bottom: 3px;
+	}
+
+	#about .about-part .text p {
+		font-size: 13px;
+		padding-top: 10px;
+	}
+
+	/*about part end*/
+	/*services part start*/
+
+	#services .services-part {
+		padding: 50px 0px;
+	}
+
+	#services .services-part .heading h2 {
+		font-size: 16px;
+	}
+
+	#services .services-part .heading img {
+		padding-left: 44%;
+	}
+
+	#services .services-part .heading p span {
+		font-size: 15px;
+	}
+
+	#services .services-part .heading p {
+		font-size: 13px;
+	}
+
+	#services .services-part .content {
+		margin-bottom: 15px;
+		margin-right: 15px;
+
+	}
+
+	#services .services-part .content i {
+		font-size: 20px;
+	}
+
+	#services .services-part .content h2 {
+		font-size: 18px;
+	}
+
+	#services .services-part .content p {
+		font-size: 12.5px;
+	}
+
+	/*services part end*/
+	/*counter part start*/
+
+	#counter-part .counter-strat {
+		padding: 50px 0px;
+	}
+
+	#counter-part .counter-strat .text i {
+		font-size: 22px;
+		color: #f1f1f1;
+	}
+
+	#counter-part .counter-strat .text h4 {
+		font-size: 18px;
+		padding-bottom: 5px;
+	}
+
+	#counter-part .counter-strat .text h5 {
+		font-size: 15px;
+		padding-bottom: 5px;
+	}
+
+	/*counter part end*/
+
+	/*portfolio part start*/
+
+	#porfolio .portfolio-part {
+		padding: 50px 0px 50px 0px;
+	}
+
+	#porfolio .portfolio-part .heading h2 {
+		font-size: 16px;
+	}
+
+	#porfolio .portfolio-part .heading img {
+		padding-left: 44%;
+	}
+
+	#porfolio .portfolio-part .heading p span {
+		font-size: 14px;
+	}
+
+	#porfolio .portfolio-part .heading p {
+		font-size: 12px;
+	}
+
+	#porfolio .portfolio-part .filter-btn button {
+		font-size: 13px;
+	}
+
+	#porfolio .portfolio-part .portfolio-item {
+		margin: 0px 0px 30px 0px;
+		position: relative;
+	}
+
+	#porfolio .portfolio-part .img-overlay {
+		height: 50%;
+		opacity: 1;
+	}
+
+	#porfolio .portfolio-part .portfolio-item:hover .img-overlay {
+		opacity: 1;
+		height: 50%;
+	}
+
+	#porfolio .portfolio-part .img-overlay h3 {
+		font-size: 13px;
+	}
+
+	#porfolio .portfolio-part .img-overlay h4 {
+		font-weight: 600;
+		font-size: 12.5px;
+	}
+
+	/*portfolio part end*/
+	/*testimonials part start*/
+
+	#testimonials .testimonials-part {
+		padding: 50px 0px;
+	}
+
+	#testimonials .testimonials-part .heading h2 {
+		font-size: 16px;
+
+	}
+
+	#testimonials .testimonials-part .heading img {
+		padding-left: 44%;
+	}
+
+	#testimonials .testimonials-part .heading p {
+		font-size: 14px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide p {
+		font-size: 12.5px;
+		letter-spacing: 0.5px;
+		padding: 0px 10px 15px 10px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide h2 {
+		font-size: 14px;
+		font-weight: 700;
+		padding-bottom: 10px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide h3 {
+		font-size: 16px;
+	}
+
+	/*testimonials part end*/
+	/*contact part start*/
+	#contact .contact-part {
+		padding: 50px 0px 50px 0px;
+	}
+
+	#contact .contact-part .heading h2 {
+		font-size: 16px;
+	}
+
+	#contact .contact-part .heading img {
+		padding-left: 44%;
+	}
+
+	#contact .contact-part .heading p {
+		font-size: 12.5px;
+	}
+
+	#contact .contact-part .contant-part h2 {
+		font-size: 14px;
+		padding-bottom: 0px;
+		display: inline-block;
+		text-align: center;
+		padding-left: 30px;
+	}
+
+	#contact .contact-part .contant-part h2 span {
+		font-size: 14px;
+		text-transform: capitalize;
+		padding-bottom: 40px;
+		padding-top: 10px;
+	}
+
+	#contact .contact-part .contant-part .form input {
+		width: 510px;
+	}
+
+	#contact .contact-part .contant-part .form textarea {
+		width: 510px;
+	}
+
+	#contact .contact-part .contant-part .form button {
+		margin: 15px 0px 0px 0px;
+		width: 120px;
+		font-size: 16px;
+		height: 33px;
+	}
+
+	#contact .contact-part .contant-part .form button i {
+		padding-right: 10px;
+	}
+
+	/*contact part end*/
+	/*fotter part start*/
+
+	#fotter .fotter-part h2 {
+		font-size: 11px;
+	}
+
+	/*fotter part end*/
+
+	/*Scroll arrow up-down start*/
+	.top_to i {
+		width: 30px;
+		height: 30px;
+		font-size: 18px;
+		line-height: 30px;
+		right: 20px;
+	}
+
+	/*Scroll arrow up-down start*/
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*header top part start*/
+	#head-t .head-t-part .logo a h2 {
+		font-size: 20px;
+	}
+
+	#head-t .head-t-part .social-icon ul li {
+		margin-left: 20px;
+	}
+
+	#head-t .head-t-part .social-icon ul li a {
+		font-size: 16px;
+	}
+
+	#head-t .head-t-part .social-icon ul li a i {
+		width: 28px;
+		height: 28px;
+		line-height: 28px;
+	}
+
+	/*header top part end*/
+	/*banner part start*/
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay {
+		height: 100%;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay {
+		height: 100%;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay {
+		height: 100%;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h2 {
+		font-size: 24px;
+		padding: 100px 0px 15px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h3 {
+		font-size: 22px;
+		padding-bottom: 15px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text h5 {
+		font-size: 20px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-1 .overlay .text a {
+		margin-top: 20px;
+		margin-bottom: 100px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h2 {
+		font-size: 24px;
+		padding: 100px 0px 15px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h3 {
+		font-size: 22px;
+		padding-bottom: 15px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text h5 {
+		font-size: 20px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-2 .overlay .text a {
+		margin-top: 20px;
+		margin-bottom: 100px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h2 {
+		font-size: 24px;
+		padding: 100px 0px 15px 0px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h3 {
+		font-size: 22px;
+		padding-bottom: 15px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text h5 {
+		font-size: 20px;
+	}
+
+	#banner .banner-part .banner-slider .banner-slider-3 .overlay .text a {
+		margin-top: 20px;
+		margin-bottom: 100px;
+	}
+
+	/*banner part end*/
+
+	/*navigation part start*/
+	#navigation .nav-part .menu-item {
+		background: #2a2a2e;
+	}
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item .nav-link {
+		margin-right: 70px;
+		padding-top: 20px;
+	}
+
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item .nav-link i {
+		font-size: 13px;
+	}
+
+	#navigation .nav-part .menu-item .navbar .navbar-nav .nav-item h4 {
+		font-size: 12.5px;
+	}
+
+	/*navigation part end*/
+	/*about part start*/
+	#about .about-part {
+		padding: 70px 0px 70px 0px;
+	}
+
+	#about .about-part .heading h2 {
+		font-size: 20px;
+	}
+
+	#about .about-part .heading img {
+		padding-left: 45%;
+	}
+
+	#about .about-part .heading p span {
+		font-size: 13px;
+	}
+
+	#about .about-part .heading p {
+		font-size: 16px;
+	}
+
+	#about .about-part .barfiller-part {
+		padding-top: 10px;
+	}
+
+	#about .about-part .barfiller-part h2 {
+		font-size: 14px;
+		padding-bottom: 3px;
+	}
+
+	#about .about-part .text p {
+		font-size: 12.5px;
+		padding-top: 5px;
+	}
+
+	/*about part end*/
+	/*services part start*/
+
+	#services .services-part {
+		padding: 70px 0px;
+	}
+
+	#services .services-part .heading h2 {
+		font-size: 20px;
+	}
+
+	#services .services-part .heading img {
+		padding-left: 45%;
+	}
+
+	#services .services-part .heading p span {
+		font-size: 16px;
+	}
+
+	#services .services-part .heading p {
+		font-size: 12.5px;
+	}
+
+	#services .services-part .content {
+		margin-bottom: 15px;
+		margin-right: 15px;
+
+	}
+
+	#services .services-part .content i {
+		font-size: 24px;
+	}
+
+	#services .services-part .content h2 {
+		font-size: 18px;
+	}
+
+	#services .services-part .content p {
+		font-size: 12.5px;
+	}
+
+	/*services part end*/
+	/*counter part start*/
+
+	#counter-part .counter-strat {
+		padding: 70px 0px;
+	}
+
+	#counter-part .counter-strat .text i {
+		font-size: 20px;
+	}
+
+	#counter-part .counter-strat .text h4 {
+		font-size: 24px;
+	}
+
+	#counter-part .counter-strat .text h5 {
+		font-size: 16px;
+	}
+
+	/*counter part end*/
+
+	/*portfolio part start*/
+
+	#porfolio .portfolio-part {
+		padding: 70px 0px 70px 0px;
+	}
+
+	#porfolio .portfolio-part .heading h2 {
+		font-size: 20px;
+	}
+
+	#porfolio .portfolio-part .heading img {
+		padding-left: 45%;
+	}
+
+	#porfolio .portfolio-part .heading p span {
+		font-size: 16px;
+	}
+
+	#porfolio .portfolio-part .heading p {
+		font-size: 12.5px;
+	}
+
+	#porfolio .portfolio-part .img-overlay {
+		height: 50%;
+		opacity: 1;
+	}
+
+	#porfolio .portfolio-part .portfolio-item:hover .img-overlay {
+		opacity: 1;
+		height: 50%;
+	}
+
+	#porfolio .portfolio-part .img-overlay h3 {
+		font-size: 16px;
+	}
+
+	#porfolio .portfolio-part .img-overlay h4 {
+		font-size: 13px;
+	}
+
+	/*portfolio part end*/
+	/*testimonials part start*/
+
+	#testimonials .testimonials-part {
+		padding: 70px 0px;
+	}
+
+	#testimonials .testimonials-part .heading h2 {
+		font-size: 20px;
+	}
+
+	#testimonials .testimonials-part .heading img {
+		padding-left: 45%;
+	}
+
+	#testimonials .testimonials-part .heading p {
+		font-size: 16px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide p {
+		font-size: 12.5px;
+		letter-spacing: 0.5px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide h2 {
+		font-size: 14px;
+	}
+
+	#testimonials .testimonials-part .testimonial-slide h3 {
+		font-size: 16px
+	}
+
+	#testimonials .testimonials-part .testimonoals-slider ul.slick-dots {
+		right: -0.5%;
+	}
+
+	/*testimonials part end*/
+	/*contact part start*/
+	#contact .contact-part {
+		padding: 70px 0px 70px 0px;
+	}
+
+	#contact .contact-part .heading h2 {
+		font-size: 20px;
+	}
+
+	#contact .contact-part .heading img {
+		padding-left: 45%;
+	}
+
+	#contact .contact-part .heading p {
+		font-size: 13px;
+	}
+
+	#contact .contact-part .contant-part h2 {;
+		font-size: 16px;
+		padding-bottom: 15px;
+	}
+
+	#contact .contact-part .contant-part h2 span {
+		font-size: 14px;
+		padding-bottom: 5px;
+		padding-top: 10px;
+	}
+
+	#contact .contact-part .contant-part .form input {
+		width: 370px;
+	}
+
+	#contact .contact-part .contant-part .form textarea {
+		width: 370px;
+	}
+
+	#contact .contact-part .contant-part .form button {
+		margin: 20px 0px 0px 0px;
+		width: 120px;
+		font-size: 14px;
+	}
+
+	/*contact part end*/
+
+	/*Scroll arrow up-down start*/
+	.top_to i {
+		width: 30px;
+		height: 30px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	/*Scroll arrow up-down start*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+/*
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	...
+}
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	...
+}
+*/
+
+/*media qu end*/
